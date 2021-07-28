@@ -1,0 +1,71 @@
+/* Css Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* CSS variables  */
+:root{
+    --navbar-hight : 50px;
+}
+ /* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color:none;
+
+}
+/* Navigation Bar ;logo style */
+#logo{
+margin: 20px;
+padding: 10px 750px 10px 10px  ;
+}
+/* Navigation Bar; logo color  */
+.logo-color{
+color: crimson;
+}
+/* Navigation Bar: list styling  */
+#navbar ul{
+display: flex;
+align-content: center;
+
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 30px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 5px;
+    border-radius:20px;
+    text-decoration: none;
+}
+#navbar ul li :hover{
+    color:brown;
+    background-color: whitesmoke;
+}
+/* 1st section   */
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+
+}
+.top-banner{
+
+    
+    width: 100%;
+
+}
+.half-weight{
+    
+    width: 50%;
+    padding-left: 10px;
+    
+}
+.half-weight-img{
+    width: 56%;
+    padding-left: 60px;
+}
